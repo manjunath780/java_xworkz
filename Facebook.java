@@ -1,12 +1,13 @@
-public class Facebook {
-    public static String userName(String firstName,String lastName,long phNumber,String gmailID,String dOB,char gender){
-       String  message = "";
-        if(firstName != null){
-           message = "login successful "; 
-        }
-        else{
-            message = "login failed";
-        }
-        return message;
+class Facebook {
+    int id;
+    String name;
+    String username;
+    String email;
+    String registrationDate;
+    String profileStatus;
+    boolean isVerified;
+
+    Facebook() {
+        System.out.println("The constructor is executed");
     }
 }
