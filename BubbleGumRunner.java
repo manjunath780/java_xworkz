@@ -1,6 +1,6 @@
 class BubbleGumRunner{
     public static void main(String[] args) {
-        // BubbleGum class instances using no-argument constructor
+        
         BubbleGum gum1 = new BubbleGum();
 
         BubbleGum gum2 = new BubbleGum();
@@ -22,7 +22,7 @@ class BubbleGumRunner{
 
    
 
-        // Displaying details of all instances
+        
         System.out.println("BubbleGum Instances:");
         gum1.displayDetails();
         gum2.displayDetails();
